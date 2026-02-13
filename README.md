@@ -15,4 +15,10 @@ This repository defines a minimal “envelope” structure for storing secret sh
 
 ## Status
 
-Early stage. Interfaces may change until v1.0.0.
+This project is designed to interoperate with the sealed `shamir` v1.0.0
+reference implementation.
+
+The envelope format and tooling are stable in scope, but this repository
+is not yet sealed as a reference artifact. Future changes are expected to
+be additive and versioned.
+
